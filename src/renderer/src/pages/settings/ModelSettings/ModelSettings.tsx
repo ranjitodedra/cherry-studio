@@ -210,77 +210,77 @@ const ModelSettings: FC = () => {
 
       <ModelSettingsContent>
         <SettingGroup theme={theme}>
-        <SettingTitle style={{ marginBottom: 12 }}>
-          <HStack alignItems="center" gap={10}>
-            <MessageSquareMore size={18} color="var(--color-text)" />
-            {t('settings.models.default_assistant_model')}
+          <SettingTitle style={{ marginBottom: 12 }}>
+            <HStack alignItems="center" gap={10}>
+              <MessageSquareMore size={18} color="var(--color-text)" />
+              {t('settings.models.default_assistant_model')}
+            </HStack>
+          </SettingTitle>
+          <HStack alignItems="center" style={{ flexWrap: 'wrap', gap: 8 }}>
+            <ModelSelector
+              providers={providers}
+              predicate={modelPredicate}
+              value={defaultModelValue}
+              defaultValue={defaultModelValue}
+              style={{ flex: 1, minWidth: 200 }}
+              onChange={(value) => setDefaultModel(find(allModels, JSON.parse(value)) as Model)}
+              placeholder={t('settings.models.empty')}
+            />
+            <Button icon={<Settings2 size={16} />} onClick={DefaultAssistantSettings.show} />
           </HStack>
-        </SettingTitle>
-        <HStack alignItems="center" style={{ flexWrap: 'wrap', gap: 8 }}>
-          <ModelSelector
-            providers={providers}
-            predicate={modelPredicate}
-            value={defaultModelValue}
-            defaultValue={defaultModelValue}
-            style={{ flex: 1, minWidth: 200 }}
-            onChange={(value) => setDefaultModel(find(allModels, JSON.parse(value)) as Model)}
-            placeholder={t('settings.models.empty')}
-          />
-          <Button icon={<Settings2 size={16} />} onClick={DefaultAssistantSettings.show} />
-        </HStack>
-        <SettingDescription>{t('settings.models.default_assistant_model_description')}</SettingDescription>
-      </SettingGroup>
-      <SettingGroup theme={theme}>
-        <SettingTitle style={{ marginBottom: 12 }}>
-          <HStack alignItems="center" gap={10}>
-            <Rocket size={18} color="var(--color-text)" />
-            {t('settings.models.quick_model.label')}
-            <InfoTooltip title={t('settings.models.quick_model.tooltip')} />
+          <SettingDescription>{t('settings.models.default_assistant_model_description')}</SettingDescription>
+        </SettingGroup>
+        <SettingGroup theme={theme}>
+          <SettingTitle style={{ marginBottom: 12 }}>
+            <HStack alignItems="center" gap={10}>
+              <Rocket size={18} color="var(--color-text)" />
+              {t('settings.models.quick_model.label')}
+              <InfoTooltip title={t('settings.models.quick_model.tooltip')} />
+            </HStack>
+          </SettingTitle>
+          <HStack alignItems="center" style={{ flexWrap: 'wrap', gap: 8 }}>
+            <ModelSelector
+              providers={providers}
+              predicate={modelPredicate}
+              value={defaultQuickModel}
+              defaultValue={defaultQuickModel}
+              style={{ flex: 1, minWidth: 200 }}
+              onChange={(value) => setQuickModel(find(allModels, JSON.parse(value)) as Model)}
+              placeholder={t('settings.models.empty')}
+            />
+            <Button icon={<Settings2 size={16} />} onClick={TopicNamingModalPopup.show} />
           </HStack>
-        </SettingTitle>
-        <HStack alignItems="center" style={{ flexWrap: 'wrap', gap: 8 }}>
-          <ModelSelector
-            providers={providers}
-            predicate={modelPredicate}
-            value={defaultQuickModel}
-            defaultValue={defaultQuickModel}
-            style={{ flex: 1, minWidth: 200 }}
-            onChange={(value) => setQuickModel(find(allModels, JSON.parse(value)) as Model)}
-            placeholder={t('settings.models.empty')}
-          />
-          <Button icon={<Settings2 size={16} />} onClick={TopicNamingModalPopup.show} />
-        </HStack>
-        <SettingDescription>{t('settings.models.quick_model.description')}</SettingDescription>
-      </SettingGroup>
-      <SettingGroup theme={theme}>
-        <SettingTitle style={{ marginBottom: 12 }}>
-          <HStack alignItems="center" gap={10}>
-            <Languages size={18} color="var(--color-text)" />
-            {t('settings.models.translate_model')}
+          <SettingDescription>{t('settings.models.quick_model.description')}</SettingDescription>
+        </SettingGroup>
+        <SettingGroup theme={theme}>
+          <SettingTitle style={{ marginBottom: 12 }}>
+            <HStack alignItems="center" gap={10}>
+              <Languages size={18} color="var(--color-text)" />
+              {t('settings.models.translate_model')}
+            </HStack>
+          </SettingTitle>
+          <HStack alignItems="center" style={{ flexWrap: 'wrap', gap: 8 }}>
+            <ModelSelector
+              providers={providers}
+              predicate={modelPredicate}
+              value={defaultTranslateModel}
+              defaultValue={defaultTranslateModel}
+              style={{ flex: 1, minWidth: 200 }}
+              onChange={(value) => setTranslateModel(find(allModels, JSON.parse(value)) as Model)}
+              placeholder={t('settings.models.empty')}
+            />
+            <Button
+              icon={<Settings2 size={16} />}
+              onClick={() => TranslateSettingsPopup.show()}
+            />
+            {translateModelPrompt !== TRANSLATE_PROMPT && (
+              <Tooltip title={t('common.reset')}>
+                <Button icon={<RedoOutlined />} onClick={onResetTranslatePrompt}></Button>
+              </Tooltip>
+            )}
           </HStack>
-        </SettingTitle>
-        <HStack alignItems="center" style={{ flexWrap: 'wrap', gap: 8 }}>
-          <ModelSelector
-            providers={providers}
-            predicate={modelPredicate}
-            value={defaultTranslateModel}
-            defaultValue={defaultTranslateModel}
-            style={{ flex: 1, minWidth: 200 }}
-            onChange={(value) => setTranslateModel(find(allModels, JSON.parse(value)) as Model)}
-            placeholder={t('settings.models.empty')}
-          />
-          <Button
-            icon={<Settings2 size={16} />}
-            onClick={() => TranslateSettingsPopup.show()}
-          />
-          {translateModelPrompt !== TRANSLATE_PROMPT && (
-            <Tooltip title={t('common.reset')}>
-              <Button icon={<RedoOutlined />} onClick={onResetTranslatePrompt}></Button>
-            </Tooltip>
-          )}
-        </HStack>
-        <SettingDescription>{t('settings.models.translate_model_description')}</SettingDescription>
-      </SettingGroup>
+          <SettingDescription>{t('settings.models.translate_model_description')}</SettingDescription>
+        </SettingGroup>
       </ModelSettingsContent>
     </ModelSettingsContainer>
   )
