@@ -6,9 +6,9 @@
  * 2. transformParams: 根据意图分析结果动态添加对应的工具
  * 3. onRequestEnd: 自动记忆存储
  */
-import { type AiRequestContext, definePlugin } from '@cherrystudio/ai-core'
+import { type AiRequestContext, definePlugin } from '@consomnius/ai-core'
 import { loggerService } from '@logger'
-// import { generateObject } from '@cherrystudio/ai-core'
+// import { generateObject } from '@consomnius/ai-core'
 import {
   SEARCH_SUMMARY_PROMPT,
   SEARCH_SUMMARY_PROMPT_KNOWLEDGE_ONLY,

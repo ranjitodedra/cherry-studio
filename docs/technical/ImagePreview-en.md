@@ -2,7 +2,7 @@
 
 ## Overview
 
-Image Preview Components are a set of specialized components in Cherry Studio for rendering and displaying various diagram and image formats. They provide a consistent user experience across different preview types with shared functionality for loading states, error handling, and interactive controls.
+Image Preview Components are a set of specialized components in consomnius for rendering and displaying various diagram and image formats. They provide a consistent user experience across different preview types with shared functionality for loading states, error handling, and interactive controls.
 
 ## Supported Formats
 

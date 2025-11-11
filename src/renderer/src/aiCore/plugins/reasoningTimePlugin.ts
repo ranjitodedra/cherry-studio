@@ -1,4 +1,4 @@
-import { definePlugin } from '@cherrystudio/ai-core'
+import { definePlugin } from '@consomnius/ai-core'
 import type { TextStreamPart, ToolSet } from 'ai'
 
 export default definePlugin({

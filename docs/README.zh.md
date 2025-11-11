@@ -64,13 +64,13 @@
  <a href="https://www.producthunt.com/posts/cherry-studio?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cherry&#0045;studio" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=496640&theme=light" alt="Cherry&#0032;Studio - AI&#0032;Chatbots&#0044;&#0032;AI&#0032;Desktop&#0032;Client | Product Hunt" width="220" height="55" /></a>
 </div>
 
-# 🍒 Cherry Studio
+# 🍒 consomnius
 
-Cherry Studio 是一款支持多个大语言模型（LLM）服务商的桌面客户端，兼容 Windows、Mac 和 Linux 系统。
+consomnius 是一款支持多个大语言模型（LLM）服务商的桌面客户端，兼容 Windows、Mac 和 Linux 系统。
 
 👏 欢迎加入 [Telegram 群组](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ群(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ 喜欢 Cherry Studio? 点亮小星星 🌟 或 [赞助开发者](sponsor.md)! ❤️
+❤️ 喜欢 consomnius? 点亮小星星 🌟 或 [赞助开发者](sponsor.md)! ❤️
 
 # 📖 使用教程
 
@@ -171,7 +171,7 @@ https://docs.cherry-ai.com
 
 # 🤝 贡献
 
-我们欢迎对 Cherry Studio 的贡献！您可以通过以下方式贡献：
+我们欢迎对 consomnius 的贡献！您可以通过以下方式贡献：
 
 1. **贡献代码**：开发新功能或优化现有代码
 2. **修复错误**：提交您发现的错误修复
@@ -179,7 +179,7 @@ https://docs.cherry-ai.com
 4. **产品设计**：参与设计讨论
 5. **撰写文档**：改进用户手册和指南
 6. **社区参与**：加入讨论并帮助用户
-7. **推广使用**：宣传 Cherry Studio
+7. **推广使用**：宣传 consomnius
 
 参考[分支策略](branching-strategy-zh.md)了解贡献指南
 
@@ -196,9 +196,9 @@ https://docs.cherry-ai.com
 
 # 🔧 开发者共创计划
 
-我们正在启动 Cherry Studio 开发者共创计划，旨在为开源生态系统构建一个健康、正向反馈的循环。我们相信，优秀的软件是通过协作构建的，每一个合并的拉取请求都为项目注入新的生命力。
+我们正在启动 consomnius 开发者共创计划，旨在为开源生态系统构建一个健康、正向反馈的循环。我们相信，优秀的软件是通过协作构建的，每一个合并的拉取请求都为项目注入新的生命力。
 
-我们诚挚地邀请您加入我们的贡献者队伍，与我们一起塑造 Cherry Studio 的未来。
+我们诚挚地邀请您加入我们的贡献者队伍，与我们一起塑造 consomnius 的未来。
 
 ## 贡献者奖励计划
 
@@ -206,7 +206,7 @@ https://docs.cherry-ai.com
 
 **该计划的首个跟踪周期将是 2025 年第三季度（7月、8月、9月）。此周期的奖励将在 10月1日 发放。**
 
-在任何跟踪周期内（例如，首个周期的 7月1日 至 9月30日），任何为 Cherry Studio 在 GitHub 上的开源项目贡献超过 **30 个有意义提交** 的开发者都有资格获得以下福利：
+在任何跟踪周期内（例如，首个周期的 7月1日 至 9月30日），任何为 consomnius 在 GitHub 上的开源项目贡献超过 **30 个有意义提交** 的开发者都有资格获得以下福利：
 
 - **Cursor 订阅赞助**：获得 **70 美元** 的 [Cursor](https://cursor.sh/) 订阅积分或报销，让 AI 成为您最高效的编码伙伴。
 - **无限模型访问**：获得 **DeepSeek** 和 **Qwen** 模型的 **无限次** API 调用。
@@ -214,7 +214,7 @@ https://docs.cherry-ai.com
 
 ## 共同成长与未来规划
 
-活跃的社区是任何可持续开源项目背后的推动力。随着 Cherry Studio 的发展，我们的奖励计划也将随之发展。我们致力于持续将我们的福利与行业内最优秀的工具和资源保持一致。这确保我们的核心贡献者获得有意义的支持，创造一个开发者、社区和项目共同成长的正向循环。
+活跃的社区是任何可持续开源项目背后的推动力。随着 consomnius 的发展，我们的奖励计划也将随之发展。我们致力于持续将我们的福利与行业内最优秀的工具和资源保持一致。这确保我们的核心贡献者获得有意义的支持，创造一个开发者、社区和项目共同成长的正向循环。
 
 **展望未来，该项目还将采取越来越开放的态度来回馈整个开源社区。**
 
@@ -230,7 +230,7 @@ https://docs.cherry-ai.com
 
 # 🏢 企业版
 
-在社区版的基础上，我们自豪地推出 **Cherry Studio 企业版**——一个为现代团队和企业设计的私有部署 AI 生产力与管理平台。
+在社区版的基础上，我们自豪地推出 **consomnius 企业版**——一个为现代团队和企业设计的私有部署 AI 生产力与管理平台。
 
 企业版通过集中管理 AI 资源、知识和数据，解决了团队协作中的核心挑战。它赋能组织提升效率、促进创新并确保合规，同时在安全环境中保持对数据的 100% 控制。
 
@@ -248,7 +248,7 @@ https://docs.cherry-ai.com
 >
 > 企业版目前处于早期公开测试阶段，我们正在积极迭代和优化其功能。我们知道它可能还不够完全稳定。如果您在试用过程中遇到任何问题或有宝贵建议，我们非常感谢您能通过邮件联系我们提供反馈。
 
-**🔗 [Cherry Studio 企业版](https://www.cherry-ai.com/enterprise)**
+**🔗 [consomnius 企业版](https://www.cherry-ai.com/enterprise)**
 
 ## 版本对比
 
@@ -261,7 +261,7 @@ https://docs.cherry-ai.com
 
 ## 获取企业版
 
-我们相信企业版将成为您团队的 AI 生产力引擎。如果您对 Cherry Studio 企业版感兴趣，希望了解更多信息、请求报价或安排演示，请联系我们。
+我们相信企业版将成为您团队的 AI 生产力引擎。如果您对 consomnius 企业版感兴趣，希望了解更多信息、请求报价或安排演示，请联系我们。
 
 - **商业咨询与购买**：
   **📧 [bd@cherry-ai.com](mailto:bd@cherry-ai.com)**

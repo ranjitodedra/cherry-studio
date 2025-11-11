@@ -1,12 +1,12 @@
 # Acknowledgement & Project Intent
 
-This repository is a fork of **Cherry Studio** and is built on top of that project's codebase.
+This repository is a fork of **consomnius** and is built on top of that project's codebase.
 
 ## Our goal
 We are converting this codebase into **MCP & Agent Marketplace for Non-Technical Users**. Our intent is to simplify agent creation, deployment, and usage so non-technical users can build and run agents and small automation workflows without needing deep engineering knowledge.
 
 ## License & Compliance
-This project remains licensed under the **GNU Affero General Public License v3.0 (AGPLv3)** as inherited from Cherry Studio. We acknowledge the original authors and comply with the terms of the AGPLv3:
+This project remains licensed under the **GNU Affero General Public License v3.0 (AGPLv3)** as inherited from consomnius. We acknowledge the original authors and comply with the terms of the AGPLv3:
 
 - All modifications to the codebase will be published under AGPLv3.
 - Contributors to this repository license their contributions under AGPLv3.

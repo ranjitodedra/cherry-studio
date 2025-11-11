@@ -220,7 +220,7 @@
     },
     "authHeaderText": "Use in Authorization header:",
     "configuration": "Configuration",
-    "description": "Expose Cherry Studio's AI capabilities through OpenAI-compatible HTTP APIs",
+    "description": "Expose consomnius's AI capabilities through OpenAI-compatible HTTP APIs",
     "documentation": {
       "title": "API Documentation"
     },
@@ -2677,7 +2677,7 @@
           },
           "description": {
             "0": "Selection Assistant requires <strong>Accessibility Permission</strong> to work properly.",
-            "1": "Please click \"<strong>Go to Settings</strong>\" and click the \"<strong>Open System Settings</strong>\" button in the permission request popup that appears later. Then find \"<strong>Cherry Studio</strong>\" in the application list that appears later and turn on the permission switch.",
+            "1": "Please click \"<strong>Go to Settings</strong>\" and click the \"<strong>Open System Settings</strong>\" button in the permission request popup that appears later. Then find \"<strong>consomnius</strong>\" in the application list that appears later and turn on the permission switch.",
             "2": "After completing the settings, please reopen the selection assistant."
           },
           "title": "Accessibility Permission"
@@ -2689,7 +2689,7 @@
         "title": "Application Filter List",
         "user_tips": {
           "mac": "Please enter the Bundle ID of the application, one per line, case insensitive, can be fuzzy matched. For example: com.google.Chrome, com.apple.mail, etc.",
-          "windows": "Please enter the executable file name of the application, one per line, case insensitive, can be fuzzy matched. For example: chrome.exe, weixin.exe, Cherry Studio.exe, etc."
+          "windows": "Please enter the executable file name of the application, one per line, case insensitive, can be fuzzy matched. For example: chrome.exe, weixin.exe, consomnius.exe, etc."
         }
       },
       "search_modal": {
@@ -3254,7 +3254,7 @@
         },
         "root": {
           "label": "Backup Directory (Optional)",
-          "placeholder": "e.g: /cherry-studio"
+          "placeholder": "e.g: /consomnius"
         },
         "secretAccessKey": {
           "label": "Secret Access Key",
@@ -3290,7 +3290,7 @@
           "title": "Connection Check"
         },
         "root_path": "Siyuan Note Root Path",
-        "root_path_placeholder": "e.g.: /CherryStudio",
+        "root_path_placeholder": "e.g.: /consomnius",
         "title": "Siyuan Note Configuration",
         "token": {
           "help": "Get Siyuan Note Token",

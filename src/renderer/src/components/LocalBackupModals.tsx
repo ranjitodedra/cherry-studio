@@ -64,7 +64,7 @@ export function useLocalBackupModal(localBackupDir: string | undefined) {
     const deviceType = await window.api.system.getDeviceType()
     const hostname = await window.api.system.getHostname()
     const timestamp = dayjs().format('YYYYMMDDHHmmss')
-    const defaultFileName = `cherry-studio.${timestamp}.${hostname}.${deviceType}.zip`
+    const defaultFileName = `consomnius.${timestamp}.${hostname}.${deviceType}.zip`
     setCustomFileName(defaultFileName)
     setIsModalVisible(true)
   }, [])

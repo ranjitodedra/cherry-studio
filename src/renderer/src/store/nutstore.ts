@@ -16,7 +16,7 @@ export interface NutstoreState {
 
 const initialState: NutstoreState = {
   nutstoreToken: '',
-  nutstorePath: '/cherry-studio',
+  nutstorePath: '/consomnius',
   nutstoreAutoSync: false,
   nutstoreSyncInterval: 0,
   nutstoreSyncState: {

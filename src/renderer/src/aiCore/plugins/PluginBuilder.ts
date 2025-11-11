@@ -1,5 +1,5 @@
-import { AiPlugin } from '@cherrystudio/ai-core'
-import { createPromptToolUsePlugin, googleToolsPlugin, webSearchPlugin } from '@cherrystudio/ai-core/built-in/plugins'
+import { AiPlugin } from '@consomnius/ai-core'
+import { createPromptToolUsePlugin, googleToolsPlugin, webSearchPlugin } from '@consomnius/ai-core/built-in/plugins'
 import { loggerService } from '@logger'
 import { getEnableDeveloperMode } from '@renderer/hooks/useSettings'
 import { Assistant } from '@renderer/types'

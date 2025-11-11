@@ -1,6 +1,6 @@
 /**
  * 消息转换模块
- * 将 Cherry Studio 消息格式转换为 AI SDK 消息格式
+ * 将 consomnius 消息格式转换为 AI SDK 消息格式
  */
 
 import { loggerService } from '@logger'
@@ -172,7 +172,7 @@ async function convertMessageToAssistantModelMessage(
 }
 
 /**
- * 转换 Cherry Studio 消息数组为 AI SDK 消息数组
+ * 转换 consomnius 消息数组为 AI SDK 消息数组
  */
 export async function convertMessagesToSdkMessages(messages: Message[], model: Model): Promise<ModelMessage[]> {
   const sdkMessages: ModelMessage[] = []

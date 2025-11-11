@@ -66,7 +66,7 @@ const PopupContainer: React.FC<Props> = ({ title, showDeclineButton = true, reso
       const { appPath } = await window.api.getAppInfo()
       const isChinese = i18n.language.startsWith('zh')
       const htmlFile = isChinese ? 'privacy-zh.html' : 'privacy-en.html'
-      const url = `file://${appPath}/resources/cherry-studio/${htmlFile}?theme=${theme === ThemeMode.dark ? 'dark' : 'light'}`
+      const url = `file://${appPath}/resources/consomnius/${htmlFile}?theme=${theme === ThemeMode.dark ? 'dark' : 'light'}`
       setPrivacyUrl(url)
     })
   }, [theme, i18n.language])

@@ -6,7 +6,7 @@
  * 集成 AiSdkSpanAdapter 将 AI SDK trace 数据转换为现有格式
  */
 
-import { definePlugin } from '@cherrystudio/ai-core'
+import { definePlugin } from '@consomnius/ai-core'
 import { loggerService } from '@logger'
 import { Context, context as otelContext, Span, SpanContext, trace, Tracer } from '@opentelemetry/api'
 import { currentSpan } from '@renderer/services/SpanManagerService'

@@ -5,8 +5,8 @@
 
 import { vertexAnthropic } from '@ai-sdk/google-vertex/anthropic/edge'
 import { vertex } from '@ai-sdk/google-vertex/edge'
-import { WebSearchPluginConfig } from '@cherrystudio/ai-core/built-in/plugins'
-import { isBaseProvider } from '@cherrystudio/ai-core/core/providers/schemas'
+import { WebSearchPluginConfig } from '@consomnius/ai-core/built-in/plugins'
+import { isBaseProvider } from '@consomnius/ai-core/core/providers/schemas'
 import { loggerService } from '@logger'
 import {
   isGenerateImageModel,

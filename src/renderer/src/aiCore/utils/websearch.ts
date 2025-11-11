@@ -2,8 +2,8 @@ import {
   AnthropicSearchConfig,
   OpenAISearchConfig,
   WebSearchPluginConfig
-} from '@cherrystudio/ai-core/core/plugins/built-in/webSearchPlugin/helper'
-import { BaseProviderId } from '@cherrystudio/ai-core/provider'
+} from '@consomnius/ai-core/core/plugins/built-in/webSearchPlugin/helper'
+import { BaseProviderId } from '@consomnius/ai-core/provider'
 import { isOpenAIWebSearchChatCompletionOnlyModel } from '@renderer/config/models'
 import { CherryWebSearchConfig } from '@renderer/store/websearch'
 import { Model } from '@renderer/types'

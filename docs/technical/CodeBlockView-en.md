@@ -2,7 +2,7 @@
 
 ## Overview
 
-CodeBlockView is the core component in Cherry Studio for displaying and manipulating code blocks. It supports multiple view modes and visual previews for special languages, providing rich interactive tools.
+CodeBlockView is the core component in consomnius for displaying and manipulating code blocks. It supports multiple view modes and visual previews for special languages, providing rich interactive tools.
 
 ## Component Structure
 

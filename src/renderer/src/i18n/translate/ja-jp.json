@@ -220,7 +220,7 @@
     },
     "authHeaderText": "認証ヘッダーで使用：",
     "configuration": "設定",
-    "description": "OpenAI 互換の HTTP API を通じて Cherry Studio の AI 機能を公開します",
+    "description": "OpenAI 互換の HTTP API を通じて consomnius の AI 機能を公開します",
     "documentation": {
       "title": "API ドキュメント"
     },
@@ -2667,7 +2667,7 @@
           },
           "description": {
             "0": "テキスト選択ツールは、<strong>アクセシビリティー権限</strong>が必要です。",
-            "1": "「<strong>設定に移動</strong>」をクリックし、後で表示される権限要求ポップアップで「<strong>システム設定を開く</strong>」ボタンをクリックします。その後、表示されるアプリケーションリストで「<strong>Cherry Studio</strong>」を見つけ、権限スイッチをオンにしてください。",
+            "1": "「<strong>設定に移動</strong>」をクリックし、後で表示される権限要求ポップアップで「<strong>システム設定を開く</strong>」ボタンをクリックします。その後、表示されるアプリケーションリストで「<strong>consomnius</strong>」を見つけ、権限スイッチをオンにしてください。",
             "2": "設定が完了したら、テキスト選択ツールを再起動してください。"
           },
           "title": "アクセシビリティー権限"
@@ -2679,7 +2679,7 @@
         "title": "アプリケーションフィルターリスト",
         "user_tips": {
           "mac": "アプリケーションのBundle IDを1行ずつ入力してください。大文字小文字は区別しません。例: com.google.Chrome, com.apple.mail, など。",
-          "windows": "アプリケーションの実行ファイル名を1行ずつ入力してください。大文字小文字は区別しません。例: chrome.exe, weixin.exe, Cherry Studio.exe, など。"
+          "windows": "アプリケーションの実行ファイル名を1行ずつ入力してください。大文字小文字は区別しません。例: chrome.exe, weixin.exe, consomnius.exe, など。"
         }
       },
       "search_modal": {
@@ -3244,7 +3244,7 @@
         },
         "root": {
           "label": "バックアップディレクトリ（オプション）",
-          "placeholder": "例：/cherry-studio"
+          "placeholder": "例：/consomnius"
         },
         "secretAccessKey": {
           "label": "Secret Access Key",
@@ -3280,7 +3280,7 @@
           "title": "接続チェック"
         },
         "root_path": "ドキュメントルートパス",
-        "root_path_placeholder": "例：/CherryStudio",
+        "root_path_placeholder": "例：/consomnius",
         "title": "思源ノート設定",
         "token": {
           "help": "思源ノート->設定->について で取得",

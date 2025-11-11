@@ -51,11 +51,11 @@ function getAppDataPathFromConfig() {
     if (isLinux && process.env.APPIMAGE) {
       // 如果是 AppImage 打包的应用，直接使用 APPIMAGE 环境变量
       // 这样可以确保获取到正确的可执行文件路径
-      executablePath = path.join(path.dirname(process.env.APPIMAGE), 'cherry-studio.appimage')
+      executablePath = path.join(path.dirname(process.env.APPIMAGE), 'consomnius.appimage')
     }
 
     if (isWin && isPortable) {
-      executablePath = path.join(process.env.PORTABLE_EXECUTABLE_DIR || '', 'cherry-studio-portable.exe')
+      executablePath = path.join(process.env.PORTABLE_EXECUTABLE_DIR || '', 'consomnius-portable.exe')
     }
 
     let appDataPath = null
@@ -91,12 +91,12 @@ export function updateAppDataConfig(appDataPath: string) {
   const configPath = path.join(configDir, 'config.json')
   let executablePath = app.getPath('exe')
   if (isLinux && process.env.APPIMAGE) {
-    executablePath = path.join(path.dirname(process.env.APPIMAGE), 'cherry-studio.appimage')
+    executablePath = path.join(path.dirname(process.env.APPIMAGE), 'consomnius.appimage')
   }
 
   // 如果是 Windows 可移植版本，则使用 PORTABLE_EXECUTABLE_FILE 环境变量
   if (isWin && isPortable) {
-    executablePath = path.join(process.env.PORTABLE_EXECUTABLE_DIR || '', 'cherry-studio-portable.exe')
+    executablePath = path.join(process.env.PORTABLE_EXECUTABLE_DIR || '', 'consomnius-portable.exe')
   }
 
   if (!fs.existsSync(configPath)) {

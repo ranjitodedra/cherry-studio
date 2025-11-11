@@ -4,7 +4,7 @@ import {
   ProviderConfigFactory,
   type ProviderId,
   type ProviderSettingsMap
-} from '@cherrystudio/ai-core/provider'
+} from '@consomnius/ai-core/provider'
 import { isOpenAIChatCompletionOnlyModel } from '@renderer/config/models'
 import { isNewApiProvider } from '@renderer/config/providers'
 import {
@@ -192,7 +192,7 @@ export function providerToAiSdkConfig(
       extraOptions.headers = {
         ...extraOptions.headers,
         'HTTP-Referer': 'https://cherry-ai.com',
-        'X-Title': 'Cherry Studio',
+        'X-Title': 'consomnius',
         'X-Api-Key': baseConfig.apiKey
       }
     }

@@ -78,7 +78,7 @@ async function cleanupOldBackups(webdavConfig: WebDavConfig, maxBackups: number)
     }
 
     const backupFiles = files
-      .filter((file) => file.fileName.startsWith('cherry-studio') && file.fileName.endsWith('.zip'))
+      .filter((file) => file.fileName.startsWith('consomnius') && file.fileName.endsWith('.zip'))
       .sort((a, b) => new Date(b.modifiedTime).getTime() - new Date(a.modifiedTime).getTime())
 
     if (backupFiles.length < maxBackups) {
@@ -136,7 +136,7 @@ export async function backupToNutstore({
     logger.error('[backupToNutstore] Failed to get device type:', error as Error)
   }
   const timestamp = dayjs().format('YYYYMMDDHHmmss')
-  const backupFileName = customFileName || `cherry-studio.${timestamp}.${deviceType}.zip`
+  const backupFileName = customFileName || `consomnius.${timestamp}.${deviceType}.zip`
   const finalFileName = backupFileName.endsWith('.zip') ? backupFileName : `${backupFileName}.zip`
 
   isManualBackupRunning = true

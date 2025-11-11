@@ -4,7 +4,7 @@ import { describe, expect, it, vi } from 'vitest'
 import { getAiSdkProviderId } from '../factory'
 
 // Mock the external dependencies
-vi.mock('@cherrystudio/ai-core', () => ({
+vi.mock('@consomnius/ai-core', () => ({
   registerMultipleProviders: vi.fn(() => 4), // Mock successful registration of 4 providers
   getProviderMapping: vi.fn((id: string) => {
     // Mock dynamic mappings

@@ -1,5 +1,5 @@
-appId: com.kangfenmao.CherryStudio
-productName: Cherry Studio
+appId: com.kangfenmao.consomnius
+productName: consomnius
 electronLanguages:
   - zh-CN
   - zh-TW
@@ -13,7 +13,7 @@ directories:
   buildResources: build
 
 protocols:
-  - name: Cherry Studio
+  - name: consomnius
     schemes:
       - cherrystudio
 files:
@@ -64,7 +64,7 @@ asarUnpack:
   - "**/*.{metal,exp,lib}"
   - "node_modules/@img/sharp-libvips-*/**"
 win:
-  executableName: Cherry Studio
+  executableName: consomnius
   artifactName: ${productName}-${version}-${arch}-setup.${ext}
   target:
     - target: nsis
@@ -107,7 +107,7 @@ linux:
   category: Utility
   desktop:
     entry:
-      StartupWMClass: CherryStudio
+      StartupWMClass: consomnius
   mimeTypes:
     - x-scheme-handler/cherrystudio
 rpm:

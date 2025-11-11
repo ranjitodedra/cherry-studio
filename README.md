@@ -13,7 +13,7 @@ We welcome contributions to ! Here are some ways you can contribute:
 4. **Product Design**: Participate in design discussions.
 5. **Write Documentation**: Improve user manuals and guides.
 6. **Community Engagement**: Join discussions and help users.
-7. **Promote Usage**: Spread the word about Cherry Studio.
+7. **Promote Usage**: Spread the word about consomnius.
 
 Refer to the [Branching Strategy](docs/branching-strategy-en.md) for contribution guidelines
 

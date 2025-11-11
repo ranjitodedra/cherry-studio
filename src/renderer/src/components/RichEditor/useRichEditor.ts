@@ -1,6 +1,6 @@
 import 'katex/dist/katex.min.css'
 
-import { TableKit } from '@cherrystudio/extension-table-plus'
+import { TableKit } from '@consomnius/extension-table-plus'
 import { loggerService } from '@logger'
 import { MARKDOWN_SOURCE_LINE_ATTR } from '@renderer/components/RichEditor/constants'
 import type { FormattingState } from '@renderer/components/RichEditor/types'

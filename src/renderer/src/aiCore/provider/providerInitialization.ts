@@ -1,4 +1,4 @@
-import { type ProviderConfig, registerMultipleProviderConfigs } from '@cherrystudio/ai-core/provider'
+import { type ProviderConfig, registerMultipleProviderConfigs } from '@consomnius/ai-core/provider'
 import { loggerService } from '@logger'
 
 const logger = loggerService.withContext('ProviderConfigs')

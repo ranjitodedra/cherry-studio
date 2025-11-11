@@ -220,7 +220,7 @@
     },
     "authHeaderText": "Utiliser dans l'en-tête d'autorisation :",
     "configuration": "Configuration",
-    "description": "Expose les capacités IA de Cherry Studio via des APIs HTTP compatibles OpenAI",
+    "description": "Expose les capacités IA de consomnius via des APIs HTTP compatibles OpenAI",
     "documentation": {
       "title": "Documentation API"
     },
@@ -2667,7 +2667,7 @@
           },
           "description": {
             "0": "L'assistant de sélection de texte a besoin de l'autorisation de « <strong>fonctionnalités d'accessibilité</strong> » pour fonctionner correctement.",
-            "1": "Veuillez cliquer sur « <strong>aller aux paramètres</strong> », puis dans la fenêtre contextuelle de demande d'autorisation qui apparaîtra ensuite, cliquez sur le bouton « <strong>ouvrir les paramètres système</strong> », recherchez ensuite « <strong>Cherry Studio</strong> » dans la liste des applications qui suit, puis activez l'interrupteur d'autorisation.",
+            "1": "Veuillez cliquer sur « <strong>aller aux paramètres</strong> », puis dans la fenêtre contextuelle de demande d'autorisation qui apparaîtra ensuite, cliquez sur le bouton « <strong>ouvrir les paramètres système</strong> », recherchez ensuite « <strong>consomnius</strong> » dans la liste des applications qui suit, puis activez l'interrupteur d'autorisation.",
             "2": "Une fois la configuration terminée, veuillez réactiver l'assistant de sélection de texte."
           },
           "title": "Autorisations d'accessibilité"
@@ -2679,7 +2679,7 @@
         "title": "Liste de sélection des applications",
         "user_tips": {
           "mac": "Veuillez saisir l'ID de bundle de l'application, un par ligne, sans sensibilité à la casse, correspondance floue possible. Par exemple : com.google.Chrome, com.apple.mail, etc.",
-          "windows": "Veuillez saisir le nom du fichier exécutable de l'application, un par ligne, sans sensibilité à la casse, correspondance floue possible. Par exemple : chrome.exe, weixin.exe, Cherry Studio.exe, etc."
+          "windows": "Veuillez saisir le nom du fichier exécutable de l'application, un par ligne, sans sensibilité à la casse, correspondance floue possible. Par exemple : chrome.exe, weixin.exe, consomnius.exe, etc."
         }
       },
       "search_modal": {
@@ -3244,7 +3244,7 @@
         },
         "root": {
           "label": "Répertoire de sauvegarde (optionnel)",
-          "placeholder": "Par exemple : /cherry-studio"
+          "placeholder": "Par exemple : /consomnius"
         },
         "secretAccessKey": {
           "label": "Clé d'accès secrète",
@@ -3280,7 +3280,7 @@
           "title": "Проверка подключения"
         },
         "root_path": "Корневой путь документа",
-        "root_path_placeholder": "Например: /CherryStudio",
+        "root_path_placeholder": "Например: /consomnius",
         "title": "Настройка CherryNote",
         "token": {
           "help": "Получить в разделе CherryNote -> Настройки -> О программе",

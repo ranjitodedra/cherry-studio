@@ -220,7 +220,7 @@
     },
     "authHeaderText": "Usar no cabeçalho de autorização:",
     "configuration": "Configuração",
-    "description": "Expõe as capacidades de IA do Cherry Studio através de APIs HTTP compatíveis com OpenAI",
+    "description": "Expõe as capacidades de IA do consomnius através de APIs HTTP compatíveis com OpenAI",
     "documentation": {
       "title": "Documentação API"
     },
@@ -2667,7 +2667,7 @@
           },
           "description": {
             "0": "O Assistente de Seleção de Texto precisa da permissão de «<strong>Funcionalidades de Acesso</strong>» para funcionar corretamente.",
-            "1": "Clique em «<strong>Ir para Configurações</strong>» e, na janela pop-up de solicitação de permissão que aparecerá em seguida, clique no botão «<strong>Abrir Configurações do Sistema</strong>», depois localize «<strong>Cherry Studio</strong>» na lista de aplicativos e ative o interruptor de permissão.",
+            "1": "Clique em «<strong>Ir para Configurações</strong>» e, na janela pop-up de solicitação de permissão que aparecerá em seguida, clique no botão «<strong>Abrir Configurações do Sistema</strong>», depois localize «<strong>consomnius</strong>» na lista de aplicativos e ative o interruptor de permissão.",
             "2": "Após concluir a configuração, ative novamente o Assistente de Seleção de Texto."
           },
           "title": "Permissão de Acessibilidade"
@@ -2679,7 +2679,7 @@
         "title": "Lista de Seleção de Aplicativos",
         "user_tips": {
           "mac": "Insira o Bundle ID do aplicativo, um por linha, sem distinção entre maiúsculas e minúsculas, correspondência parcial permitida. Por exemplo: com.google.Chrome, com.apple.mail, etc.",
-          "windows": "Insira o nome do arquivo executável do aplicativo, um por linha, sem distinção entre maiúsculas e minúsculas, correspondência parcial permitida. Por exemplo: chrome.exe, weixin.exe, Cherry Studio.exe, etc."
+          "windows": "Insira o nome do arquivo executável do aplicativo, um por linha, sem distinção entre maiúsculas e minúsculas, correspondência parcial permitida. Por exemplo: chrome.exe, weixin.exe, consomnius.exe, etc."
         }
       },
       "search_modal": {
@@ -3244,7 +3244,7 @@
         },
         "root": {
           "label": "Diretório de backup (opcional)",
-          "placeholder": "Por exemplo: /cherry-studio"
+          "placeholder": "Por exemplo: /consomnius"
         },
         "secretAccessKey": {
           "label": "Chave de Acesso Secreta",
@@ -3280,7 +3280,7 @@
           "title": "Detecção de Conexão"
         },
         "root_path": "Caminho Raiz do Documento",
-        "root_path_placeholder": "Exemplo: /CherryStudio",
+        "root_path_placeholder": "Exemplo: /consomnius",
         "title": "Configuração do Siyuan Notebook",
         "token": {
           "help": "Obtenha em Siyuan Notebook -> Configurações -> Sobre",

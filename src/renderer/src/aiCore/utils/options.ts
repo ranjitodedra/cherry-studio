@@ -1,4 +1,4 @@
-import { baseProviderIdSchema, customProviderIdSchema } from '@cherrystudio/ai-core/provider'
+import { baseProviderIdSchema, customProviderIdSchema } from '@consomnius/ai-core/provider'
 import { isOpenAIModel, isQwenMTModel, isSupportFlexServiceTierModel } from '@renderer/config/models'
 import { isSupportServiceTierProvider } from '@renderer/config/providers'
 import { mapLanguageToQwenMTModel } from '@renderer/config/translate'

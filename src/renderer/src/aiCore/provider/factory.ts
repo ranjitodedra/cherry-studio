@@ -1,5 +1,5 @@
-import { hasProviderConfigByAlias, type ProviderId, resolveProviderConfigId } from '@cherrystudio/ai-core/provider'
-import { createProvider as createProviderCore } from '@cherrystudio/ai-core/provider'
+import { hasProviderConfigByAlias, type ProviderId, resolveProviderConfigId } from '@consomnius/ai-core/provider'
+import { createProvider as createProviderCore } from '@consomnius/ai-core/provider'
 import { loggerService } from '@logger'
 import { Provider } from '@renderer/types'
 import type { Provider as AiSdkProvider } from 'ai'
@@ -22,7 +22,7 @@ const logger = loggerService.withContext('ProviderFactory')
 
 /**
  * 静态Provider映射表
- * 处理Cherry Studio特有的provider ID到AI SDK标准ID的映射
+ * 处理consomnius特有的provider ID到AI SDK标准ID的映射
  */
 const STATIC_PROVIDER_MAPPING: Record<string, ProviderId> = {
   gemini: 'google', // Google Gemini -> google

@@ -1,4 +1,4 @@
-import { WebSearchPluginConfig } from '@cherrystudio/ai-core/built-in/plugins'
+import { WebSearchPluginConfig } from '@consomnius/ai-core/built-in/plugins'
 import { loggerService } from '@logger'
 import type { MCPTool, Message, Model, Provider } from '@renderer/types'
 import type { Chunk } from '@renderer/types/chunk'

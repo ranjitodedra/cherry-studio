@@ -1,5 +1,5 @@
 /**
- * Cherry Studio AI Core Package
+ * consomnius AI Core Package
  * 基于 Vercel AI SDK 的统一 AI Provider 接口
  */
 
@@ -43,4 +43,4 @@ export {
 
 // ==================== 包信息 ====================
 export const AI_CORE_VERSION = '1.0.0'
-export const AI_CORE_NAME = '@cherrystudio/ai-core'
+export const AI_CORE_NAME = '@consomnius/ai-core'

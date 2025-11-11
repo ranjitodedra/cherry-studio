@@ -1,13 +1,13 @@
 /**
- * Cherry Studio AI Core - 新版本入口
- * 集成 @cherrystudio/ai-core 库的渐进式重构方案
+ * consomnius AI Core - 新版本入口
+ * 集成 @consomnius/ai-core 库的渐进式重构方案
  *
  * 融合方案：简化实现，专注于核心功能
  * 1. 优先使用新AI SDK
  * 2. 暂时保持接口兼容性
  */
 
-import { createExecutor } from '@cherrystudio/ai-core'
+import { createExecutor } from '@consomnius/ai-core'
 import { loggerService } from '@logger'
 import { getEnableDeveloperMode } from '@renderer/hooks/useSettings'
 import { addSpan, endSpan } from '@renderer/services/SpanManagerService'

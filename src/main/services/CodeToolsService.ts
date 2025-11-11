@@ -709,9 +709,9 @@ class CodeToolsService {
         // Build bat file content, including debug information
         const batContent = [
           '@echo off',
-          `title ${cliTool} - Cherry Studio`, // Set window title in bat file
+          `title ${cliTool} - consomnius`, // Set window title in bat file
           'echo ================================================',
-          'echo Cherry Studio CLI Tool Launcher',
+          'echo consomnius CLI Tool Launcher',
           `echo Tool: ${cliTool}`,
           `echo Directory: ${directory}`,
           `echo Time: ${new Date().toLocaleString()}`,

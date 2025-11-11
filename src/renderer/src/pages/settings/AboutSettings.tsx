@@ -86,9 +86,9 @@ const AboutSettings: FC = () => {
   const showLicense = async () => {
     const { appPath } = await window.api.getAppInfo()
     openSmartMinapp({
-      id: 'cherrystudio-license',
+      id: 'consomnius-license',
       name: t('settings.about.license.title'),
-      url: `file://${appPath}/resources/cherry-studio/license.html`,
+      url: `file://${appPath}/resources/consomnius/license.html`,
       logo: AppLogo
     })
   }
@@ -96,9 +96,9 @@ const AboutSettings: FC = () => {
   const showReleases = async () => {
     const { appPath } = await window.api.getAppInfo()
     openSmartMinapp({
-      id: 'cherrystudio-releases',
+      id: 'consomnius-releases',
       name: t('settings.about.releases.title'),
-      url: `file://${appPath}/resources/cherry-studio/releases.html?theme=${theme === ThemeMode.dark ? 'dark' : 'light'}`,
+      url: `file://${appPath}/resources/consomnius/releases.html?theme=${theme === ThemeMode.dark ? 'dark' : 'light'}`,
       logo: AppLogo
     })
   }
@@ -180,7 +180,7 @@ const AboutSettings: FC = () => {
   const onOpenDocs = () => {
     const isChinese = i18n.language.startsWith('zh')
     window.api.openWebsite(
-      isChinese ? 'https://docs.cherry-ai.com/' : 'https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us'
+      isChinese ? 'https://docs.cherry-ai.com/' : 'https://docs.cherry-ai.com/consomnius-wen-dang/en-us'
     )
   }
 
@@ -190,7 +190,7 @@ const AboutSettings: FC = () => {
         <SettingTitle>
           {t('settings.about.title')}
           <HStack alignItems="center">
-            <Link to="https://github.com/CherryHQ/cherry-studio">
+            <Link to="https://github.com/CherryHQ/consomnius">
               <GithubOutlined style={{ marginRight: 4, color: 'var(--color-text)', fontSize: 20 }} />
             </Link>
           </HStack>
@@ -198,7 +198,7 @@ const AboutSettings: FC = () => {
         <SettingDivider />
         <AboutHeader>
           <Row align="middle">
-            <AvatarWrapper onClick={() => onOpenWebsite('https://github.com/CherryHQ/cherry-studio')}>
+            <AvatarWrapper onClick={() => onOpenWebsite('https://github.com/CherryHQ/consomnius')}>
               {update.downloadProgress > 0 && (
                 <ProgressCircle
                   type="circle"
@@ -215,7 +215,7 @@ const AboutSettings: FC = () => {
               <Title>{APP_NAME}</Title>
               <Description>{t('settings.about.description')}</Description>
               <Tag
-                onClick={() => onOpenWebsite('https://github.com/CherryHQ/cherry-studio/releases')}
+                onClick={() => onOpenWebsite('https://github.com/CherryHQ/consomnius/releases')}
                 color="cyan"
                 style={{ marginTop: 8, cursor: 'pointer' }}>
                 v{version}
@@ -318,7 +318,7 @@ const AboutSettings: FC = () => {
             <GithubOutlined size={18} />
             {t('settings.about.feedback.title')}
           </SettingRowTitle>
-          <Button onClick={() => onOpenWebsite('https://github.com/CherryHQ/cherry-studio/issues/new/choose')}>
+          <Button onClick={() => onOpenWebsite('https://github.com/CherryHQ/consomnius/issues/new/choose')}>
             {t('settings.about.feedback.button')}
           </Button>
         </SettingRow>

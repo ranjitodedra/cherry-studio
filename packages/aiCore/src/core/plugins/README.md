@@ -48,7 +48,7 @@ transformStream?: () => (options) => TransformStream<TextStreamPart, TextStreamP
 ### 基础用法
 
 ```typescript
-import { PluginManager, createContext, definePlugin } from '@cherrystudio/ai-core/middleware'
+import { PluginManager, createContext, definePlugin } from '@consomnius/ai-core/middleware'
 
 // 创建插件管理器
 const pluginManager = new PluginManager()
@@ -79,7 +79,7 @@ import {
   LoggingPlugin,
   ParamsValidationPlugin,
   createContext
-} from '@cherrystudio/ai-core/middleware'
+} from '@consomnius/ai-core/middleware'
 
 // 创建插件管理器
 const manager = new PluginManager([

@@ -87,7 +87,7 @@ export class ToolExecutor {
   }
 
   /**
-   * 格式化工具结果为 Cherry Studio 标准格式
+   * 格式化工具结果为 consomnius 标准格式
    */
   formatToolResults(executedResults: ExecutedResult[]): string {
     return executedResults

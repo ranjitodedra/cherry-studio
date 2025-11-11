@@ -220,7 +220,7 @@
     },
     "authHeaderText": "在授权标头中使用：",
     "configuration": "配置",
-    "description": "通过 OpenAI 兼容的 HTTP API 暴露 Cherry Studio 的 AI 功能",
+    "description": "通过 OpenAI 兼容的 HTTP API 暴露 consomnius 的 AI 功能",
     "documentation": {
       "title": "API 文档"
     },
@@ -2677,7 +2677,7 @@
           },
           "description": [
             "划词助手需「<strong>辅助功能权限</strong>」才能正常工作。",
-            "请点击「<strong>去设置</strong>」，并在稍后弹出的权限请求弹窗中点击 「<strong>打开系统设置</strong>」 按钮，然后在之后的应用列表中找到 「<strong>Cherry Studio</strong>」，并打开权限开关。",
+            "请点击「<strong>去设置</strong>」，并在稍后弹出的权限请求弹窗中点击 「<strong>打开系统设置</strong>」 按钮，然后在之后的应用列表中找到 「<strong>consomnius</strong>」，并打开权限开关。",
             "完成设置后，请再次开启划词助手。"
           ],
           "title": "辅助功能权限"
@@ -2689,7 +2689,7 @@
         "title": "应用筛选名单",
         "user_tips": {
           "mac": "请输入应用的Bundle ID，每行一个，不区分大小写，可以模糊匹配。例如：com.google.Chrome、com.apple.mail等",
-          "windows": "请输入应用的执行文件名，每行一个，不区分大小写，可以模糊匹配。例如：chrome.exe、weixin.exe、Cherry Studio.exe等"
+          "windows": "请输入应用的执行文件名，每行一个，不区分大小写，可以模糊匹配。例如：chrome.exe、weixin.exe、consomnius.exe等"
         }
       },
       "search_modal": {
@@ -3254,7 +3254,7 @@
         },
         "root": {
           "label": "备份目录（可选）",
-          "placeholder": "例如：/cherry-studio"
+          "placeholder": "例如：/consomnius"
         },
         "secretAccessKey": {
           "label": "Secret Access Key",
@@ -3290,7 +3290,7 @@
           "title": "连接检测"
         },
         "root_path": "文档根路径",
-        "root_path_placeholder": "例如：/CherryStudio",
+        "root_path_placeholder": "例如：/consomnius",
         "title": "思源笔记配置",
         "token": {
           "help": "在思源笔记 -> 设置 -> 关于中获取",

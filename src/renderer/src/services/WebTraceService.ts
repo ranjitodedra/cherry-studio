@@ -6,7 +6,7 @@ import { ReadableSpan } from '@opentelemetry/sdk-trace-base'
 
 const logger = loggerService.withContext('WebTraceService')
 
-const TRACER_NAME = 'CherryStudio'
+const TRACER_NAME = 'consomnius'
 
 class WebTraceService {
   init() {

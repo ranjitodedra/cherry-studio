@@ -1,6 +1,6 @@
 # 🌿 Branching Strategy
 
-Cherry Studio implements a structured branching strategy to maintain code quality and streamline the development process.
+consomnius implements a structured branching strategy to maintain code quality and streamline the development process.
 
 ## Main Branches
 
@@ -20,7 +20,7 @@ For details about the `testplan` branch used in the Test Plan, please refer to t
 
 ## Contributing Branches
 
-When contributing to Cherry Studio, please follow these guidelines:
+When contributing to consomnius, please follow these guidelines:
 
 1. **Feature Branches:**
 

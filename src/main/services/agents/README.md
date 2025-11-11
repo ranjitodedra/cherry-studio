@@ -1,6 +1,6 @@
 # Agents Service
 
-Simplified Drizzle ORM implementation for agent and session management in Cherry Studio.
+Simplified Drizzle ORM implementation for agent and session management in consomnius.
 
 ## Features
 

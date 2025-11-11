@@ -63,7 +63,7 @@ const rootReducer = combineReducers({
 
 const persistedReducer = persistReducer(
   {
-    key: 'cherry-studio',
+    key: 'consomnius',
     storage,
     version: 163,
     blacklist: ['runtime', 'messages', 'messageBlocks', 'tabs'],

@@ -28,7 +28,7 @@
 
 ```mermaid
 graph TD
-    subgraph "用户应用 (如 Cherry Studio)"
+    subgraph "用户应用 (如 consomnius)"
         UI["用户界面"]
         Components["应用组件"]
     end
@@ -324,7 +324,7 @@ export function wrapModelWithMiddlewares(model: LanguageModel, middlewares: Lang
 ### 5.1 函数式调用 (推荐 - 简单场景)
 
 ```typescript
-import { streamText, generateText } from '@cherrystudio/ai-core/runtime'
+import { streamText, generateText } from '@consomnius/ai-core/runtime'
 
 // 直接函数调用
 const stream = await streamText(
@@ -339,7 +339,7 @@ const stream = await streamText(
 ### 5.2 执行器实例 (推荐 - 复杂场景)
 
 ```typescript
-import { createExecutor } from '@cherrystudio/ai-core/runtime'
+import { createExecutor } from '@consomnius/ai-core/runtime'
 
 // 创建可复用的执行器
 const executor = createExecutor('openai', { apiKey: 'your-api-key' }, [plugin1, plugin2])
@@ -357,7 +357,7 @@ const result = await executor.generateText('gpt-4', {
 ### 5.3 静态工厂方法
 
 ```typescript
-import { RuntimeExecutor } from '@cherrystudio/ai-core/runtime'
+import { RuntimeExecutor } from '@consomnius/ai-core/runtime'
 
 // 静态创建
 const executor = RuntimeExecutor.create('anthropic', { apiKey: 'your-api-key' })
@@ -367,7 +367,7 @@ await executor.streamText('claude-3', { messages: [...] })
 ### 5.4 直接模型创建 (高级用法)
 
 ```typescript
-import { createModel } from '@cherrystudio/ai-core/models'
+import { createModel } from '@consomnius/ai-core/models'
 import { streamText } from 'ai'
 
 // 直接创建模型使用

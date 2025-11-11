@@ -1,5 +1,5 @@
 /**
- * @fileoverview Shared Anthropic AI client utilities for Cherry Studio
+ * @fileoverview Shared Anthropic AI client utilities for consomnius
  *
  * This module provides functions for creating Anthropic SDK clients with different
  * authentication methods (OAuth, API key) and building Claude Code system messages.
