@@ -47,7 +47,7 @@ function getUserFromRequest(req: Request): { id: string; email?: string; name?: 
  *                   items:
  *                     $ref: '#/components/schemas/MarketplaceServer'
  */
-router.get('/servers', async (_req: Request, res: Response) => {
+router.get('/servers', async (req: Request, res: Response) => {
   try {
     logger.debug('Fetching all marketplace servers')
     const servers = await marketplaceService.getAllServers()
